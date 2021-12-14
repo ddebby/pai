@@ -10,11 +10,16 @@ version: 2
 #  configuration: docs/conf.py
 
 # Build documentation with MkDocs
-mkdocs:
-  configuration: mkdocs.yml
+# mkdocs:
+#   configuration: mkdocs.yml
 
+sphinx:
+  fail_on_warning: true
+
+formats:
+  - pdf
 # Optionally build your docs in additional formats such as PDF and ePub
-formats: all
+# formats: all
 
 # Optionally set the version of Python and requirements required to build your docs
 python:
