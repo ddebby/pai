@@ -31,6 +31,10 @@ nav:
       - 升级指南: manual/cluster-admin/upgrade-guide.md
 plugins:
   - search
+sphinx:
+  fail_on_warning: true
+formats:
+  - pdf
 site_name: OpenPAI手册
 theme: readthedocs
 use_directory_urls: false
